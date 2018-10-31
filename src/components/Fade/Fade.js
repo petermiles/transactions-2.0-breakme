@@ -39,7 +39,7 @@ const Fade = ({ in: inProp, children }) => (
 );
 
 Fade.propTypes = {
-  fade: PropTypes.object // from enhancer (firestoreConnect + connect)
+  fade: PropTypes.object
 }
 
 export default Fade
