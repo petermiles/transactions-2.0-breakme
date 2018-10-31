@@ -1,0 +1,32 @@
+{
+  "projects": {
+    "default": "transactions2dot0",
+    "master": "transactions2dot0",
+    "prod": "transactions2dot0"
+  },
+  "ci": {
+    "copyVersion": true,
+    "createConfig": {
+      "master": {
+        "env": "staging",
+        "firebase": {
+          "apiKey": "AIzaSyBjm2lN8KcKq6p384jnm14_VFyryfoZwRM",
+          "authDomain": "transactions2dot0.firebaseapp.com",
+          "databaseURL": "https://transactions2dot0.firebaseio.com",
+          "projectId": "transactions2dot0",
+          "storageBucket": "transactions2dot0.appspot.com"
+        }
+      },
+      "prod": {
+        "env": "production",
+        "firebase": {
+          "apiKey": "AIzaSyBjm2lN8KcKq6p384jnm14_VFyryfoZwRM",
+          "authDomain": "transactions2dot0.firebaseapp.com",
+          "databaseURL": "https://transactions2dot0.firebaseio.com",
+          "projectId": "transactions2dot0",
+          "storageBucket": "transactions2dot0.appspot.com"
+        }
+      }
+    }
+  }
+}

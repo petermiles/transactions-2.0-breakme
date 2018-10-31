@@ -1,0 +1,20 @@
+@import 'base';
+
+.root {
+  @extend .flex-row;
+  justify-content: space-around;
+  background-color: $cream;
+  height: 80px;
+  width: 45%;
+  margin: 24px;
+  transition: height 200 ease-in-out;
+}
+
+.cardOpen {
+  height: 100%;
+  transition: height 200ms ease-in-out;
+}
+
+.issueTtile {
+  width: 100%;
+}
